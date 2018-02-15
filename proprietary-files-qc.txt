@@ -85,7 +85,7 @@ lib64/libfiltergenerator.so
 lib64/libblurbuster.so
 lib64/libtrueportrait.so
 lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/etc/camera/camera_config.xml
+vendor/etc/camera/camera_config.xml|760e079c736bb70ed80c4c15f68c05b0cadf3777
 vendor/etc/camera/imx350_chromatix.xml
 vendor/etc/camera/imx371_chromatix.xml
 vendor/etc/camera/imx376k_chromatix.xml
@@ -390,6 +390,12 @@ etc/oneplus5_vstab_db_1080p_video_1_30fps.config
 etc/oneplus5_vstab_db_4k_video_0_30fps.config
 etc/oneplus5_vstab_db_720p_video_0_30fps.config
 etc/oneplus5_vstab_db_720p_video_1_30fps.config
+etc/oneplus5T_vstab_db_1080p_video_0_30fps.config
+etc/oneplus5T_vstab_db_1080p_video_0_60fps.config
+etc/oneplus5T_vstab_db_1080p_video_1_30fps.config
+etc/oneplus5T_vstab_db_4k_video_0_30fps.config
+etc/oneplus5T_vstab_db_720p_video_0_30fps.config
+etc/oneplus5T_vstab_db_720p_video_1_30fps.config
 lib/lib_oneplus_facebeauty.so
 lib/lib_oneplus_watermark.so
 lib/libmms_gyro_vstab_auth.so
@@ -619,6 +625,7 @@ lib64/liblocationservice_jni.so
 etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qualcomm.location.xml
 etc/permissions/izat.xt.srv.xml
+etc/permissions/privapp-permissions-com.qualcomm.location.xml
 framework/com.qti.location.sdk.jar
 framework/izat.xt.srv.jar
 -priv-app/com.qualcomm.location/com.qualcomm.location.apk
